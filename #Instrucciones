@@ -1,0 +1,9 @@
+#Instrucciones
+se trataría de crear una aplicación sencilla rails y súbirla a heroku, la mayoría de los aplicativos que desarrollamos los desplegamos con esta plataforma.
+
+Hacerme una talbla usuario, migracion con los campos nombre y
+La aplicación debe suportar dos tipos de usuario: administrador y cliente:
+- el administrador crea productos [titulo, imagen], subiendo la imagen a una cuenta de Amazon S3
+- el cliente añade productos al carrito via ajax, y realiza un checkout del carrito.
+
+Los usuarios pueden ser hardcodeados, no hace falta que crees un sistema de registro, la cuenta de S3 también es única para la aplicación. El checkout pone el carrito en estado pagado, no hace falta ningún metodo de pago.
